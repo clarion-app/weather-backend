@@ -1,4 +1,4 @@
-# Weather Backend
+# clarion-app/weather-backend
 
 A Laravel package that fetches and stores weather data, providing comprehensive weather forecasting endpoints for frontend applications. This backend integrates with weather APIs (like OpenWeatherMap) to deliver current conditions, forecasts, alerts, and minutely precipitation data.
 
