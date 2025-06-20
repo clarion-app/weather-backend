@@ -1,6 +1,7 @@
 {
   "name": "clarion-app/weather-backend",
-  "description": "Describe your package",
+  "version": "1.0.0",
+  "description": "Fetchs and store weather data. Provides endpoints for frontend weather app.",
   "type": "library",
   "license": "MIT",
   "autoload": {
