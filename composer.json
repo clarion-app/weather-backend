@@ -29,8 +29,8 @@
       "app-name": "@clarion-app/weather",
       "description": "Provides weather forecasts.",
       "customPrompts": {
-        "chooseOperations": "To retrieve the weather for a location, first use the locations.active operation to match the location name to its ID. Then use the weather-data.current operation to get the current weather for that location and summarize it in natural language.",
-        "generateApiCall": "Remember to replace {locationId} with the actual location ID. You MUST set the continue parameter of generate_api_call to true when calling weather-data.current."
+        "listOperations": "To retrieve the weather for a location, first use the weather_locations.active tool to match the location name to its ID. Then use the weather_weather-data.current tool to get the current weather for that location and summarize it in natural language.",
+        "executeOperation": "Remember to replace path_locationId with the actual location ID when calling weather tools."
       }
     }
   },
