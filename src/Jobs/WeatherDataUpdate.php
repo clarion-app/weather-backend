@@ -40,7 +40,7 @@ class WeatherDataUpdate implements ShouldQueue
             $locations = WeatherLocation::where('is_active', true)->get();
             
             if ($locations->isEmpty()) {
-                Log::info('No active weather locations found');
+//                Log::info('No active weather locations found');
                 return;
             }
 
